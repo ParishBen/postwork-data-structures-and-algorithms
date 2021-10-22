@@ -1,6 +1,6 @@
 require './reverse_string'
 
-RSpec.describe '#reverse_string' do 
+Rspec.describe '#reverse_string' do 
   it "can handle an empty string" do
     expect(reverse_string('')).to eq('')
   end

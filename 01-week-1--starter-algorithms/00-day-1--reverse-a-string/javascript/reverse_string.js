@@ -1,6 +1,12 @@
 function reverseString(str) {
   // type your code here
+  let myOut = str.split('').reverse()
+
+  return myOut.join('')
 }
+
+console.log(reverseString('bye'))
+
 
 if (require.main === module) {
   // add your own tests in here
@@ -17,3 +23,5 @@ module.exports = reverseString;
 
 // Please add your pseudocode to this file
 // And a written explanation of your solution
+
+
