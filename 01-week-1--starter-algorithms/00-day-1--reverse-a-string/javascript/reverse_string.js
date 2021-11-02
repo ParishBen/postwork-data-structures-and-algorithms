@@ -6,6 +6,10 @@ function reverseString(str) {
 }
 
 console.log(reverseString('bye'))
+console.log(reverseString('AwwwSnap'))
+console.log(reverseString('racecar'))
+console.log(reverseString(''))
+
 
 
 if (require.main === module) {
