@@ -1,6 +1,20 @@
 def fibonacci(num)
   # type your code in here
+
+  change_pair = [0, 1]
+  i=0
+  if num < 2
+    then return num
 end
+while i < num -1 do
+  sum = change_pair[0] + change_pair[1]
+  change_pair = [change_pair[1], sum]
+  i+=1
+end
+puts sum
+sum
+end
+  
 
 if __FILE__ == $PROGRAM_NAME
   puts "Expecting: 0"

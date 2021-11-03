@@ -1,5 +1,23 @@
-function fibonacci(num) {
-  // type your code here
+// function fibonacci(num) {
+//   // type your code here
+//   //const fib = n => {
+//     if (num <= 1) { return num; } 
+//     return fibonacci(num - 1) + fibonacci(num - 2);
+  
+// }
+
+function fibonacci(n) {
+  let [a, b, temp] = [1, 0];
+  console.log("before loop",a,b,temp)
+  while(n >= 1){
+    temp = a;
+    a = a + b;
+    b = temp;
+    console.log("in while",a,b,temp)
+    n--;
+  }
+  console.log("afterwhile b",b)
+  return b;
 }
 
 if (require.main === module) {

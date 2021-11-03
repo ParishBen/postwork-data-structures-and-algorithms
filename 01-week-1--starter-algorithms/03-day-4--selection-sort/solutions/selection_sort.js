@@ -7,6 +7,7 @@ function selectionSort(arr) {
 
     sorted.push(min);
     arr.splice(idx, 1);
+    
   }
 
   return sorted;
