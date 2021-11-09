@@ -17,6 +17,9 @@ function selectionSort(arr) {
 
 }
 
+// let myArr = [0,3,5,7,9]
+// console.log(myArr.splice(1,1))
+
 if (require.main === module) {
   // add your own tests in here
   console.log("Expecting: [-1, 2, 3, 5]");
@@ -42,6 +45,7 @@ if (require.main === module) {
   const avgTime = (Date.now() - startTime) / 2000;
 
   console.log("ran 2 thou times in ",avgTime);
+  //console.log(myArr.splice(1,1))
 }
 
 
